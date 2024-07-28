@@ -21,6 +21,13 @@ if ( ! class_exists( 'Acf_Plugin_Sites' ) ) :
 
 	class Acf_Plugin_Sites {
 
+		/**
+		 * The settings property.
+		 *
+		 * @var array
+		 */
+		private $settings;
+		
 		/*
 		 *  __construct
 		 *
