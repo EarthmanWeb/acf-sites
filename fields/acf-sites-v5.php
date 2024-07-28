@@ -10,6 +10,13 @@ if ( ! class_exists( 'Acf_Field_Sites' ) ) {
 
 	class Acf_Field_Sites extends acf_field {
 
+		/**
+		 * The settings property.
+		 *
+		 * @var array
+		 */
+		private $settings;
+		
 		/*
 		*  __construct
 		*
